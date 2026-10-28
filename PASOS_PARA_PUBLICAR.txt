@@ -1,0 +1,19 @@
+PUBLICAR EL LABORATORIO EN INTERNET (SIN COMANDOS)
+
+1. Extrae este ZIP. Verifica que veas app.py, audio_engine.py, requirements.txt, packages.txt, README.md y la carpeta .streamlit.
+2. Entra a https://github.com y crea una cuenta si todavia no tienes.
+3. En GitHub: boton + > New repository. Nombre sugerido: laboratorio-musical-senales. Marca Public y haz clic en Create repository.
+4. En tu nuevo repositorio, haz clic en Add file > Upload files. Sube los archivos app.py, audio_engine.py, requirements.txt, packages.txt y README.md (la carpeta .streamlit es opcional para el despliegue, pero mejora el tema visual). Presiona Commit changes.
+5. Abre https://share.streamlit.io. Entra y conecta GitHub.
+6. Pulsa Create app > Yup, I have an app; selecciona tu repositorio, branch: main, Main file path: app.py.
+7. Opcional: elige un nombre de subdominio disponible, por ejemplo laboratorio-senales-curso.
+8. En Advanced settings usa Python 3.12 si debes elegir una version.
+9. Pulsa Deploy. Cuando la pagina funcione, COPIA EL ENLACE REAL de tu app (termina en .streamlit.app).
+10. Comparte SOLO ESE ENLACE con tu profesor, y verifica antes desde una ventana de incognito.
+
+AVISO:
+- Esta entrega funciona con la demo sintetica sin subir audio.
+- El filtrado, los espectrogramas y la reproduccion estan en la version basica.
+- La separacion IA Demucs no esta activa en el alojamiento gratuito base.
+- No subas canciones MP3 al repositorio sin los permisos correspondientes.
+- La app puede entrar en reposo tras un periodo sin visitas; cualquier visitante autorizado puede reactivarla desde el enlace.
